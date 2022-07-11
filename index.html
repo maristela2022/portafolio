@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMG | Dev</title>
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <div class="menu__container container">
+            <div class="menu__header">
+                <h3 class="menu__title">EMG</h3> 
+            </div>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#inicio" active>INICIO</a></li>
+                    <li class="menu__list__item"><a href="#sobre-mi">SOBRE MI</a></li>
+                    <li class="menu__list__item"><a href="#skills">HABILIDADES</a></li>
+                    <li class="menu__list__item"><a href="#formacion">FORMACIÓN</a></li>
+                    <li class="menu__list__item"><a href="#xp">PORTFOLIO</a></li>
+                    <li class="menu__list__item"><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="menu__burguer">
+                <i class="bi bi-list menu__icon-burguer"></i>
+                <i class="bi bi-x menu__icon-x menu_hidden"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Header/Title -->
+    <section class="title container" id="inicio">
+        <div class="title__div">
+            <div class="title__container">
+                <h3 class="title__hello animate__animated animate__flipInX">Hola, mi nombre es</h3>
+                <hr class="divider">
+                <h1 class="title__name animate__animated animate__flipInX animate__delay-1s">Estela Gomez</h1>
+                <h2 class="title__rol animate__animated animate__flipInX animate__delay-1s"> Desarrolladora de Páginas Web</h2>
+                <p class="title__description medium-font animate__animated animate__flipInX animate__delay-2s">Soy formada en Ciencias Económicas y Herramientas Digitales, me especializo en el desarrollo de páginas web, e-commerce y aplicaciones</p>
+                <ul class="title__network animate__animated animate__flipInX animate__delay-2s">
+                    <li class="title__network__item"><a href="https://github.com/maristela2022" target="_blank"><i class="bi bi-github"></i> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/estela-gomez-1220b119/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/maristela1974/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li class="title__network__item"><a href="https://twitter.com/diaz_rusconi" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                    <li class="title__network__item"><a href="mailto:faromogotes@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a></li>
+                </ul>
+            </div>
+            <div class="title__lottie animate__animated animate__fadeIn animate__delay-3s">
+                <img src="./assets/img/foto_final.jpg"  background="transparent"  speed="1"  style="width: 500px; height: 450px">
+            </div>     
+          
+          
+
+        </div>
+        <a class="title_mouse" href="#sobre-mi">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_onc0p4sf.json"  background="transparent"  speed="1"  style="width: 35px; height: 35px;"  loop autoplay></lottie-player>
+            <h4>Conocer más</h4>
+            <i class="bi bi-chevron-down"></i>
+        </a>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container container">
+            <h4 class="about__title">Sobre mi</h4>
+            <h2>Profesional de Ciencias Económicas con amplia experiencia en empresas y apasionada por el Sector IT</h2>
+            <div class="about__column">
+                <div class="blob"></div>
+                <div class="about__text">
+                    <img src="./assets/img/foto.jpg" style="width: 75px; height: 75px">
+                    <p class="medium-font">Soy graduada de Ciencias Económicas y me capacito continuamente en herramientas digitales para estar actualizada con las nuevas tendencias</p><br>
+                    <p class="medium-font">Soy responsable, proactiva, flexible a los cambios contínuos, con capacidad para trabajar en equipo y enfrentar desafíos</p><br>
+                    <p class="medium-font">Cuento con una amplia experiencia en empresas de todo tipo y de diferentes rubros</p><br>
+                    <p class="medium-font">He trabajado en proyectos relacionados al desarrollo front-end y e-commerce</p><br>
+                    <a class="about__button button" href="#contacto">Contactame <i class="bi bi-send button-icon"></i></a>
+                </div>
+            </div>
+            <div class="about__features"></div>
+        </div>
+    </section>
+
+    <div class="spacer space-top"></div>
+
+    <!-- Sección de Skills -->
+    <section class="skills container" id="skills">
+        <h4 class="skills__title">Habilidades</h4>
+        <div class="skills__column">
+
+            <div class="skills__hard-skills">
+                <h2 class="skills-subtitle">Hard Skills</h2>
+                <div class="skills-cards" id="hard-skills">
+                    <div class="skill-box">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <h5 class="skill-text">HTML</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <h5 class="skill-text">CSS</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-js-square skill-icon"></i>
+                        <h5 class="skill-text">JAVASCRIPT</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-bootstrap skill-icon"></i>
+                        <h5 class="skill-text">BOOTSTRAP</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-database skill-icon"></i>
+                        <h5 class="skill-text">MYSQL</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-wordpress skill-icon"></i>
+                        <h5 class="skill-text">WORDPRESS</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-git-alt skill-icon"></i>
+                        <h5 class="skill-text">GIT</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-react skill-icon "></i>
+                        <h5 class="skill-text">REACT</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-node-js skill-icon"></i>
+                        <h5 class="skill-text">NODE JS</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-python skill-icon"></i>
+                        <h5 class="skill-text">PYTHON</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__soft-skills">
+                <h2 class="skills-subtitle">Soft Skills</h2>
+                <div class="skills-cards">
+                    <div class="skill-box">
+                        <i class="fa-solid fa-book skill-icon"></i>
+                        <h5 class="skill-text">Autodidacta</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-paintbrush skill-icon"></i>
+                        <h5 class="skill-text">Creativo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-file skill-icon"></i>
+                        <h5 class="skill-text">COMPROMISO</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-brain skill-icon"></i>
+                        <h5 class="skill-text">growth mindset</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-child-reaching skill-icon"></i>
+                        <h5 class="skill-text">Liderazgo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-people-group skill-icon"></i>
+                        <h5 class="skill-text">Trabajo en Equipo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-comment skill-icon"></i>
+                        <h5 class="skill-text">Comunicación</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-chart-line skill-icon"></i>
+                        <h5 class="skill-text">Proactivo</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-dumbbell skill-icon"></i>
+                        <h5 class="skill-text">Resiliencia</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-hand-holding-hand skill-icon"></i>
+                        <h5 class="skill-text">Empatía</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <div class="academic_container container">
+            <h4 class="academic__title" >Formación</h4>
+            <div class="academic__courses">
+                
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title"><h3>Codo a codo 4.0</h3></li>
+                        <li class="academic__courses__item__subtitle"><p>Java Fullstack</p></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/2-codo.png"></li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title"><h3>ALURA Latam</h3></li>
+                        <li class="academic__courses__item__subtitle"><p>Frontend, Java & Soft Skills</p></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/3-alura.jpg"></li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title"><h3>Free Code Camp</h3></li>
+                        <li class="academic__courses__item__subtitle"><p>Responsive Web Design & JavaScript Algorithms and Data Structures</p></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/4-freecodecamp.jpg"></li>
+                    </ul>
+                </div>
+                
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title"><h3>Linkedin Learning</h3></li>
+                        <li class="academic__courses__item__subtitle"><p>MYSQL Essentials</p></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/6-linkedin.jpg"></li>
+                    </ul>
+                </div>
+                
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <li class="academic__courses__item__title"><h3>Accenture</h3></li>
+                        <li class="academic__courses__item__subtitle"><p>Soft Skills</p></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/8-accenture.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer space-top"></div>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <!--<section class="experience__web container" id="xp">
+        <h4 class="experience__section__title">Portfolio - Websites</h4>
+        <div class="experience__websites">
+
+            <div class="experiencie__box">
+                <h2 class="experience__title">Bodies Rockeritos</h2>
+                <h3 class="experience__text">Website con e-commerce <i class="bi bi-cart3"></i></h3>
+                <a href="https://rockeritos.ar" target="_blank">
+                    <div class="experience__img" id="wordpress-1"></div>
+                </a>
+                <div class="experience__description">
+                    <span class="experience__demo"><a class="button" href="https://rockeritos.ar">Ver demo <i class="bi bi-globe button-icon"></i></a></span>
+                </div>
+            </div>
+
+            <div class="experiencie__box">
+                <h2 class="experience__title">Hernán Leyez - fotografía</h2>
+                <h3 class="experience__text">Website con portfolio fotográfico <i class="bi bi-camera-fill"></i></h3>
+                <a href="https://hernanleyez.com.ar" target="_blank">
+                    <div class="experience__img" id="wordpress-2"></div>
+                </a>
+                <div class="experience__description">
+                    <span class="experience__demo"><a class="button" href="https://hernanleyez.com.ar">Ver demo <i class="bi bi-globe button-icon"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer space-bottom"></div>-->
+
+
+
+
+    <section class="experience__app" id="xp">
+        <div class="experience__app__div container">
+            <h4 class="experience__section__app__title">Portfolio - Aplicaciones</h4>
+            <div class="experience__websites">
+
+                <!--<div class="experiencie__app__box">
+                    <h2 class="experience__app__title">Escuchadle ♪</h2>
+                    <h3 class="experience__app__text">Un juego de canciones</h3>
+                    <a href="https://escuchadle.fun/" target="_blank">
+                        <div class="experience__app__img" id="app-0"></div>
+                    </a>
+                    <div class="experience__app__description">
+                        <span class="experience__repo"><a class="button" href="https://github.com/gonadr09/Escuchadle">Repositorio <i class="bi bi-github button-icon"></i></a></span>
+                        <span class="experience__demo"><a class="button" href="https://escuchadle.fun/">Ver demo <i class="bi bi-globe button-icon"></i></a></span>
+                    </div>
+                </div>-->
+
+                <div class="experiencie__app__box">
+                    <h2 class="experience__app__title">Encriptador de textos</h2>
+                    <h3 class="experience__app__text">Challange Alura | Oracle ONE </h3>
+                    <a href="https://github.com/maristela2022/ahorcado.git/" target="_blank">
+                        <div class="experience__app__img" id="app-1"></div>
+                    </a>
+                    <div class="experience__app__description">
+                        <span class="experience__repo"><a class="button" >Repositorio <i class="bi bi-github button-icon"></i></a></span>
+                        <span class="experience__demo"><a class="button" >Ver demo <i class="bi bi-globe button-icon"></i></a></span>
+                    </div>
+                </div>
+                
+                <div class="experiencie__app__box">
+                    <h2 class="experience__title">Ahorcado</h2>
+                    <h3 class="experience__text">Challange Alura | Oracle ONE</h3>
+                    <a href="https://gonadr09.github.io/Juego-Ahorcado-Alura/" target="_blank">
+                        <div class="experience__app__img" id="app-2"></div>
+                    </a>
+                    <div class="experience__app__description">
+                        <span class="experience__repo"><a class="button" href="https://github.com/gonadr09/Juego-Ahorcado-Alura">Repositorio <i class="bi bi-github button-icon"></i></a></span>
+                        <span class="experience__demo"><a class="button" href="https://gonadr09.github.io/Juego-Ahorcado-Alura/">Ver demo <i class="bi bi-globe button-icon"></i></a></span>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </section>
+
+    <div class="spacer space-top"></div>
+
+
+    <!-- Sección de Contacto -->
+    <section class="formcontato container" id="contacto">
+        <div  class="formcontato__contacto">
+            <h4 class="formcontato__title">Contacto</h4>
+            <h2 class="formcontato__subtext">¿Qué tal si trabajamos juntos?</h2>
+            <h3 class="formcontato__subtext">Completá el siguiente formulario para ponernos en contacto</h3>
+            <form class="formcontato__form" name="form" action="https://formsubmit.co/8044883a0f8f58cf3189ed5d4b9dddc6" method="POST">
+
+                <label id="name-label" class="formcontato__label field_ok" for="name">
+                    <p class="formcontato__description">Nombre:</p>
+                    <input class="formcontato__input" id="name" type="text" name="name" autocomplete="off" data-valid="false">
+                    <p id="name-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="email-label" class="formcontato__label field_ok" for="email">
+                    <p class="formcontato__description">Email:</p>
+                    <input class="formcontato__input" id="email" type="email" name="email" autocomplete="off" data-valid="false">
+                    <p id="email-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="subject-label" class="formcontato__label field_ok" for="subject">
+                    <p class="formcontato__description">Asunto:</p>
+                    <input class="formcontato__input" id="subject" type="text" name="subject" autocomplete="off" data-valid="false">
+                    <p id="subject-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="message-label" class="formcontato__label field_ok" for="message">
+                    <p class="formcontato__description">Mensaje:</p>
+                    <textarea class="formcontato__input" rows="5" cols="40" id="message" name="message" autocomplete="off" data-valid="false"></textarea>
+                    <p id="message-error" class="formcontato__error-message little-font"></p>
+                </label>
+
+                <button type="submit" id="submit_button" class="formcontato__button button" disabled>Enviar mensaje <i class="bi bi-send button-icon"></i></button>
+
+            </form>
+        </div>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__container container">
+            <h3>ESTELA GOMEZ</h3>
+            <ul class="title__network">
+                <li class="title__network__item"><a href="https://github.com/maristela2022" target="_blank"><i class="bi bi-github "></i> </a></li>
+                <li class="title__network__item"><a href="https://www.linkedin.com/in/estela-gomez-1220b119/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                <li class="title__network__item"><a href="https://www.instagram.com/maristela1974/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li class="title__network__item"><a href="https://twitter.com/diaz_rusconi" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                <li class="title__network__item"><a href="mailto:faromogotes@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a></li>
+            </ul>
+            <p>Copyright © 2022 - Developed by EMG</p>
+        </div>
+    </section>
+
+ <!-- Script del documento JavaScript -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./assets/js/form-validation.js"></script>
+<script src="./assets/js/nav.js"></script>
+</body>
+</html>
+
+
+
